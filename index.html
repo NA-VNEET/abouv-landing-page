@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Abouv</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="stars" id="stars"></div>
+        
+        <div class="logo-container">
+            <div class="logo">
+                <div class="arrow-up"></div>
+            </div>
+        </div>
+        
+        <h1>Welcome to<br>Abouv</h1>
+        
+        <div class="tagline">Assessments that get you hired</div>
+        
+        <div class="features">
+            <div class="feature-icon icon-brain">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#004d5c" stroke-width="2">
+                    <circle cx="12" cy="12" r="3"></circle>
+                    <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                </svg>
+            </div>
+            <div class="feature-icon icon-briefcase">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#8a6d30" stroke-width="2">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                </svg>
+            </div>
+            <div class="feature-icon icon-trophy">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#5a3682" stroke-width="2">
+                    <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                    <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                    <path d="M4 22h16"></path>
+                    <path d="M10 22V8a4 4 0 0 1 4-4h0a4 4 0 0 1 4 4v14"></path>
+                    <path d="M7 22V8a7 7 0 0 1 7-7h0a7 7 0 0 1 7 7v14"></path>
+                </svg>
+            </div>
+        </div>
+        
+        <div class="signup-section">
+            <button class="signup-btn" id="signupBtn">Login / Sign up</button>
+            
+            <div class="mobile-input-container" id="mobileInputContainer">
+                <div class="mobile-input-group">
+                    <input 
+                        type="tel" 
+                        id="phoneInput" 
+                        placeholder="10 digit mobile number" 
+                        pattern="[0-9]{10}" 
+                        maxlength="10"
+                        autocomplete="tel"
+                    >
+                    <div class="error-message" id="errorMessage">
+                        Phone number is required
+                    </div>
+                </div>
+                
+                <button class="continue-btn" id="continueBtn" disabled>
+                    Continue
+                </button>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p class="terms">
+                By clicking, you agree to our
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Privacy policy</a>
+            </p>
+        </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+
+    
+</body>
+</html>
